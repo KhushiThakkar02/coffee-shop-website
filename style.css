@@ -113,13 +113,18 @@ nav a:hover{
     background-color: #fff3e0;
 }
 footer{
-    background-color: #4E342E;
+    background-color: #4b2e2e;
+    color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 footer p{
     color: white;
+}
+footer h3{
+    color: white;
+       
 }
 form{
     background-color: white;
