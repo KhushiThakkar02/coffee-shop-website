@@ -40,6 +40,7 @@ nav{
     text-align: center;
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 nav a{
     display: inline-block;
@@ -86,8 +87,8 @@ nav a:hover{
     margin-top: 20px;
 }
 .hero button:hover{
-    background-color: #6D4C41;
-    transform: scale(1.1);
+    background-color: #8b5e3c;
+    transform: scale(1.05);
 }
 .hero-image img{
     transition:1s;
@@ -155,6 +156,9 @@ form button{
 form button:hover{
     background-color: #6D4C41;
     transform: scale(1.1);
+}
+h2{
+    text-align: center;
 }
 #about{
     text-align: center;
@@ -237,7 +241,7 @@ form button:hover{
     }
 
 }
-#gallery{
+/*#gallery{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap:20px;
@@ -248,5 +252,18 @@ form button:hover{
     background-color: #fff8e1;
     padding: 30px;
     text-align: center;
+    border-radius: 10px;
+}*/
+#gallery{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px;
+}
+#gallery img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border: none;
     border-radius: 10px;
 }
